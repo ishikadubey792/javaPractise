@@ -19,11 +19,6 @@ public class Solution
 {    
 	public static int postOrderSuccessor(BinaryTreeNode<Integer> root, int M)
 	{
-        /* 
-		  Your class should be named Solution.
-	 	  Read input as specified in the question.
-	 	  Print output as specified in the question.
-		*/
          if(root==null){
              return -1;
          }
