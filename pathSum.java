@@ -24,9 +24,7 @@ class Solution {
 
                 // If it's a leaf node and targetSum is 0, return true
            if(root.left == null && root.right == null){
-            if(targetSum==0){
                 return targetSum==0;
-            }
         }
 
         // call left 
